@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgba(192, 219, 219, 0.301);
+    height: 400px;
+    width: 400px;
+    border-radius: 4px rgba(124, 116, 116, 0.668);
+    margin-top: 100px;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px rgba(123, 117, 117, 0.818);
+    
+}
+#Time,#Day,#Date{
+    color: rgba(1, 14, 29, 0.926);
+    font-weight: bold;
+}
+#Time{
+    font-size: 80px;
+}
+#Sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 250px;
+    color: rgba(165, 31, 219, 0.337);
+    margin-top: 30px;
+    filter: drop-shadow(5px 5px 5px rgba(165, 31, 219, 0.337));
+}
+#Day,#Date{
+    font-size: 50px;
+}
+#alarm{
+    width: 80%;
+    height: 50%;
+    background-color: beige;
+    position: absolute;
+    display: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+#buttonSetAlarm{
+    position: absolute;
+    bottom: 30px;
+}
+#input{
+    width: 40%;
+    height: 40px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+select{
+    width: 30%;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: royalblue;
+    font-weight: bold;
+}
+#closeAlarm{
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+}
+#alarmIcon{
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
